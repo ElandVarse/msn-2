@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+}
+
+html, body, #root, .app{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(#57c7ef, #f9f9f9);
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
