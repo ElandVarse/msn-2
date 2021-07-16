@@ -1,0 +1,28 @@
+.login {
+    height: 600px;
+    width: 600px;
+    background-color: #96eefa;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 16px;
+        background-color: #f9f9f9;
+        border: 2px solid #96eefa;
+        border-bottom: 0;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
